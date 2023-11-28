@@ -8,4 +8,6 @@ $('select[data-value]').each(function(index, item){
 		items.val(defaultValue);
 	}
 	
+	require('@toast-ui/editor/dist/toastui-editor.css');
+	
 })
